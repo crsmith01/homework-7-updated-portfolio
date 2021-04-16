@@ -27,8 +27,6 @@ GIVEN they need to sample a potential employee's previous work
     THEN they are presented with a responsive layout that adapts to their viewport.
 ```
 
-**Note: Since I do not currently have enough web applications to showcase at this point, I used placeholder images and names for now. I will change them to real applications as I create them later in the course. For now, when you click on the image for an application, it takes you to the image for that project since I don’t have the application actually deployed. Once there is more text for the actual projects filled in, I will likely change the Portfolio section to have the text float left and right of the corresponding image. I just prefer the aesthetics of the centered version for now with this little text.  I can see font color changing as well for accessibility purposes.
-
 ```
 
 
@@ -43,4 +41,4 @@ Screenshots can be viewed here:
 
 ## Link to deployed application: 
 The deployed application can be found via this link: 
-https://crsmith01.github.io/homework2-portfolio/
+https://crsmith01.github.io/homework-7-updated-portfolio
