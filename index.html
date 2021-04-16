@@ -40,16 +40,26 @@
     <header class="header">
         <h1>Catherine Smith</h1>
         <nav>
-            <a href="#about-me">About Me</a>
-            <a href="#portfolio">Portfolio</a>
-            <a href="https://docs.google.com/document/d/e/2PACX-1vTOmmrXw5f6mpnJ4ntzogEC_U2VBiDCNWEIMASmboPkLAYC9ApUQoJoF1oIFBqTWVA4OQbMzuODDxsM/pub">Resume</a>
-            <a href="#contact">Contact</a>
+            <ul class="nav nav-pills nav-fill">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#about-me">About Me</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#portfolio">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#https://docs.google.com/document/d/e/2PACX-1vTOmmrXw5f6mpnJ4ntzogEC_U2VBiDCNWEIMASmboPkLAYC9ApUQoJoF1oIFBqTWVA4OQbMzuODDxsM/pub">Resume</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
         </nav>
     </header> 
 
     <div></div>
 
-    <main class="content">
+    <main class="content" class="container">
         <section id="about-me" class="float-keep-left">
             <h2>About Me</h2>
             <img src="images/catherine_headshot_sunken_garden.png" alt="Catherine Smith headshot in Sunken Gardens at William & Mary" class="profile-photo" class="float-keep-left"/>
@@ -67,38 +77,44 @@
 
         <div id="portfolio" class="projects"></div>
             <h2>Portfolio</h2>
-            <section class="project">
-                <h3>Password Generator</h3>
-                <a href="https://crsmith01.github.io/homework-3-password-generator/">
-                    <img src="./images/password-screenshot.png" alt="Screenshot of password generator application" class="first-project"/>
-                </a>
-                <p>App to create a password with alphanumeric and special characters.
-                    <br>
-                    <a href='https://github.com/crsmith01/homework-3-password-generator'> GitHub Repository</a>
-                    <a href='https://crsmith01.github.io/homework-3-password-generator/'> Deployed Application</a>
-                </p>
-            </section>
-            <section class="project">
-                <h3>Work Day Scheduler</h3>
-                 <a href="https://crsmith01.github.io/homework5-day-planner/">
-                    <img src="./images/work-day-scheduler-screenshot.png" alt="Screenshot of deployed work day scheduler application"/>
-                </a>
-                    <p>Work day scheduling app with color-coded time slots and ability to save notes.
+            <section class="project card" style="width: 18rem;">
+                <div class="card-body">
+                    <h3 class="card-title">Password Generator</h3>
+                    <a href="https://crsmith01.github.io/homework-3-password-generator/">
+                        <img src="./images/password-screenshot.png" class="card-img-top" alt="Screenshot of password generator application" class="first-project"/>
+                    </a>
+                    <p class="card-text">App to create a password with alphanumeric and special characters.
                         <br>
-                        <a href='https://github.com/crsmith01/homework5-day-planner'> GitHub Repository</a>
-                        <a href='https://crsmith01.github.io/homework5-day-planner/'> Deployed Application</a>
+                        <a href='https://github.com/crsmith01/homework-3-password-generator' class="btn btn-primary"> GitHub Repository</a>
+                        <a href='https://crsmith01.github.io/homework-3-password-generator/' class="btn btn-primary"> Deployed Application</a>
                     </p>
+                </div>
+            </section>
+            <section class="project card" style="width: 18rem;">
+                <div class="card-body">
+                    <h3 class="card-title">Work Day Scheduler</h3>
+                    <a href="https://crsmith01.github.io/homework5-day-planner/">
+                        <img src="./images/work-day-scheduler-screenshot.png" class="card-img-top" alt="Screenshot of deployed work day scheduler application"/>
+                    </a>
+                        <p class="card-text">Work day scheduling app with color-coded time slots and ability to save notes.
+                            <br>
+                            <a href='https://github.com/crsmith01/homework5-day-planner' class="btn btn-primary"> GitHub Repository</a>
+                            <a href='https://crsmith01.github.io/homework5-day-planner/' class="btn btn-primary"> Deployed Application</a>
+                        </p>
+                </div>
                 </section>
-            <section class="project">
-                <h3>Project 1 - Musical</h3>
-                <a href="https://crsmith01.github.io/Musical/">
-                    <img src="./images/musical-screenshot.png" alt="Screenshot of Musical application"/>
-                </a>
-                <p>App for finding musical performances and viewing artists’ top videos.
-                    <br>
-                    <a href='https://github.com/crsmith01/Musical'> GitHub Repository</a>
-                    <a href='https://crsmith01.github.io/Musical/'> Deployed Application</a>
-                </p>
+            <section class="project card" style="width: 18rem;">
+                <div class="card-body">
+                    <h3c lass="card-title">Project 1 - Musical</h3>
+                    <a href="https://crsmith01.github.io/Musical/">
+                      <img src="./images/musical-screenshot.png" class="card-img-top" alt="Screenshot of Musical application"/>
+                    </a>
+                    <p class="card-text">App for finding musical performances and viewing artists’ top videos.
+                        <br>
+                        <a href='https://github.com/crsmith01/Musical' class="btn btn-primary"> GitHub Repository</a>
+                        <a href='https://crsmith01.github.io/Musical/' class="btn btn-primary"> Deployed Application</a>
+                    </p>
+                 </div>
             </section>
         </div>
     </main>
