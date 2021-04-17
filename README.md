@@ -3,6 +3,7 @@
 As I progress through the program and create more applications (projects and homework assignments), I will be updating my portfolio to build toward becoming employer-competitive.
 
 ```
+```
 ## My Portfolio Links
 1. Link to Porfolio: [link](https://crsmith01.github.io/homework-7-updated-profile)
 2. Link to Resume: [link](https://docs.google.com/document/d/e/2PACX-1vTOmmrXw5f6mpnJ4ntzogEC_U2VBiDCNWEIMASmboPkLAYC9ApUQoJoF1oIFBqTWVA4OQbMzuODDxsM/pub)
@@ -10,7 +11,7 @@ As I progress through the program and create more applications (projects and hom
 4. Link to LinkedIn profile: [link](https://www.linkedin.com/in/catherine-smith24601)
 
 ```
-
+```         
 ## User Story
 
 ```
@@ -18,7 +19,7 @@ AS A potential employee,
 I WANT to update my deployed portfolio of work samples for potential employers to view
 SO THAT THEY can review samples of my work and assess whether I am a good candidate for an open position.
 ```
-
+```
 
 ## Acceptance Criteria
 
@@ -36,19 +37,23 @@ GIVEN they need to sample a potential employee's previous work
     THEN they are taken to that deployed application.
 5. WHEN they resize the page or view the site on various screens and devices
     THEN they are presented with a responsive layout that adapts to their viewport.
-6. WHEN they click a link,
-    THEN they are taken to the appropriate destination (i.e. my GitHub profile, LinkedIn profile, deployed application, GitHub repository)
+6. WHEN they click a link or button,
+    THEN they are taken to the appropriate destination (i.e. GitHub profile, LinkedIn profile, deployed application, GitHub repository)
 ```
-
+```
 
 ## Screenshot(s) of finished product:
 ![screenshot](___________)
 
 ```
+```
 
 ## Link to deployed application: 
 The deployed application can be found via this 
 [link](https://crsmith01.github.io/homework-7-updated-portfolio).
+
+```
+```
 
 ### Brought to you by:
 * [Catherine Smith](https://github.com/crsmith01)
