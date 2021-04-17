@@ -1,4 +1,4 @@
-# homework2-portfolio
+# Updated Portfolio
 
 As I progress through the program and create more applications (projects and homework assignments), I will be updating my portfolio to build toward becoming employer-competitive.
 
@@ -43,7 +43,7 @@ GIVEN they need to sample a potential employee's previous work
 ```
 
 ## Screenshot(s) of finished product:
-![screenshot](./images/portfolio_hw7)
+![screenshot](./images/portfolio_hw7.png)
 
 ```
 ```
