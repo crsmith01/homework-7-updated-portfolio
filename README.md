@@ -43,7 +43,7 @@ GIVEN they need to sample a potential employee's previous work
 ```
 
 ## Screenshot(s) of finished product:
-![screenshot](___________)
+![screenshot](./images/portfolio_hw7)
 
 ```
 ```
